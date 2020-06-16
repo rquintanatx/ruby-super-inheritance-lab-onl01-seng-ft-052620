@@ -9,5 +9,7 @@ class ChattyStudent < Student
     i = 0 
     while i < 10 
       super 
-      i ++
+      i += 1
+    end 
+  end 
 end 
